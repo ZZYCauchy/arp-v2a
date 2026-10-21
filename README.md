@@ -66,6 +66,6 @@ python dno_eval.py \
   --arp_beta 10
 ```
 
-成功后会写出 `outputs/<method>/<视频ID>.flac`。把 `--arp_mode closed` 换成 `joint` 即 ARP-Joint；此时 `--arp_lr 0.05 --arp_lambda 0.1` 与论文消融一致。
+成功后会写出 `outputs/<method>/<视频ID>.flac`。把 `--arp_mode closed` 换成 `joint` 即 ARP-Joint。
 
 显存建议两张卡：一张放 MMAudio，一张放 CLAP。单卡 40GB 容易在反向传播时不够。
