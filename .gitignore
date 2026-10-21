@@ -1,0 +1,7 @@
+weights/
+ext_weights/
+__pycache__/
+*.pyc
+outputs/
+*.flac
+*.wav
